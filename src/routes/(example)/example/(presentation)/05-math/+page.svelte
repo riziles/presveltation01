@@ -8,6 +8,7 @@
 	let classM = 'text-purple-400';
 	let classC = 'text-orange-400';
 	let classP = 'text-blue-400';
+	let classR = 'text-red-400';
 
 	let equ = `E = \\sqrt{(mc^2)^2 + (pc)^2}`;
 	let equE = `\\htmlClass{${classE}}{E} = \\sqrt{(mc^2)^2 + (pc)^2}`;
@@ -46,4 +47,5 @@
 			</div>
 		</div>
 	</div>
+
 </div>
