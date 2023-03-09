@@ -19,41 +19,6 @@
 				{ name: 'Slides Folder', route: '/#slides-folder' },
 				{ name: 'Notes Folder', route: '/#notes-folder' }
 			]
-		},
-		{
-			name: 'Slide Step Classes',
-			route: '/slide-steps',
-			subMenus: [
-				{ name: 'Add Step Animations', route: '/slide-steps#add-step-animation' },
-				{ name: 'Animate.css', route: '/slide-steps#animate-css' },
-				{ name: 'Adding Tailwind Classes', route: '/slide-steps#tailwind-css' }
-			]
-		},
-		{
-			name: 'Stores',
-			route: '/stores',
-			subMenus: [
-				{ name: 'Slides', route: '/stores#slides' },
-				{ name: 'Current Slide', route: '/stores#curr-slide' },
-				{ name: 'Max Steps', route: '/stores#max-steps' },
-				{ name: 'Current Step', route: '/stores#curr-step' }
-			]
-		},
-		{
-			name: 'Dynamic Code',
-			route: '/code',
-			subMenus: [
-				{ name: 'SvHighlight', route: '/code#svhighlight' },
-				{ name: 'Add Step Focus Blocks', route: '/code#focus-blocks' }
-			]
-		},
-		{
-			name: 'Math',
-			route: '/math',
-			subMenus: [
-				{ name: 'Katex', route: '/math#katex' },
-				{ name: 'Example', route: '/math#math-example' }
-			]
 		}
 	];
 

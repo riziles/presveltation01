@@ -9,12 +9,6 @@
 <div class="flex h-screen w-screen flex-col items-center justify-center bg-gray-900">
 <div class="flex flex-col items-center gap-8 text-2xl md:flex-row md:gap-20">
 	<article class="prose prose-li:marker:text-emerald-200 prose-invert">
-		<h1>Prose...</h1>
-		<p>
-			For years parents have espoused the health benefits of eating garlic bread with cheese to their
-			children, with the food earning such an iconic status in our culture that kids will often dress
-			up as warm, cheesy loaf for Halloween.
-		</p>
 		<Test />
 	</article>
 </div>

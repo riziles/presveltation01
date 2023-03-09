@@ -1,9 +1,16 @@
 <script>
 	import './intro.css';
 	import { addSteps } from '$lib/addsteps';
+	import { onMount } from 'svelte';
+	let mounted = false
+
+	onMount(async () => {
+		mounted = true
+	});
+
 </script>
 
-<div class="flex h-screen max-h-screen flex-col justify-center bg-gray-900">
+<div class="flex h-screen max-h-screen flex-col justify-center bg-gray-900 {mounted?'':'hidden'}">
 	<div class="max-w-5/6 mx-auto ">
 		<div class="animate__animated step-1:animate__flip" use:addSteps>
 			<iconify-icon icon="openmoji:deciduous-tree" class="text-9xl" />
