@@ -26,8 +26,8 @@ Markdown test:
 1. A
 2. List
 
-* Bullets aren't working for some reason?
-* More bullets
+* Bullets were working all along!
+* Just needed to change the color!
 
 | Tables | Are |
 |-------|------|

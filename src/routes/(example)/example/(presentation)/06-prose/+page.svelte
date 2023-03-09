@@ -6,9 +6,9 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
 </svelte:head>
 
-<div class="flex h-screen w-screen flex-col items-center justify-center bg-gray-300">
+<div class="flex h-screen w-screen flex-col items-center justify-center bg-gray-900">
 <div class="flex flex-col items-center gap-8 text-2xl md:flex-row md:gap-20">
-	<article class="prose">
+	<article class="prose prose-li:marker:text-emerald-200 prose-invert">
 		<h1>Prose...</h1>
 		<p>
 			For years parents have espoused the health benefits of eating garlic bread with cheese to their
